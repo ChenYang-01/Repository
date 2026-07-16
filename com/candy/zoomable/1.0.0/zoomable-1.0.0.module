@@ -1,0 +1,225 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.candy",
+    "module": "zoomable",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zoomable-1.0.0.aar",
+          "url": "zoomable-1.0.0.aar",
+          "size": 669437,
+          "sha512": "0d1c2159c65f2dcc65c538a0977dd9ad91cad840881de74e4a42ca8216895c7da05f9e7ce1f099202818a31ed553341c4c71672fc7151389d3db1affb91ddb08",
+          "sha256": "6a0dca90de4ee8536788e90e734e5988391828738555d48f2c9dc7dd8a2d7ad8",
+          "sha1": "f15c807ef80492331001fb8a31d4fa61f3694542",
+          "md5": "2eb76c9b244343a29afe3fe457468a25"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "dev.drewhamilton.poko",
+          "module": "poko-annotations",
+          "version": {
+            "requires": "0.23.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-collections-immutable",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zoomable-1.0.0.aar",
+          "url": "zoomable-1.0.0.aar",
+          "size": 669437,
+          "sha512": "0d1c2159c65f2dcc65c538a0977dd9ad91cad840881de74e4a42ca8216895c7da05f9e7ce1f099202818a31ed553341c4c71672fc7151389d3db1affb91ddb08",
+          "sha256": "6a0dca90de4ee8536788e90e734e5988391828738555d48f2c9dc7dd8a2d7ad8",
+          "sha1": "f15c807ef80492331001fb8a31d4fa61f3694542",
+          "md5": "2eb76c9b244343a29afe3fe457468a25"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "zoomable-1.0.0-sources.jar",
+          "url": "zoomable-1.0.0-sources.jar",
+          "size": 101242,
+          "sha512": "9defaea08bf2a882e93226c115a908274a3c433c2b6d7334b7348d10cc8a967a5cc19b47df7d5bc68bd3631a330cf80b6ef297f70fc49c86c4ee01b0140c3034",
+          "sha256": "d5e97228359b369dedc5e6d328e01b87e3bd4825f5f4ed9f9d2fe8a8cc723871",
+          "sha1": "d39dee44043373adef140409adc0809c69fa0237",
+          "md5": "c9e94f8529c047fba810bec12d24dece"
+        }
+      ]
+    }
+  ]
+}
