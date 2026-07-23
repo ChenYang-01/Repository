@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.candy",
+    "module": "media-picker",
+    "version": "1.0.4-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media-picker-1.0.4-alpha.aar",
+          "url": "media-picker-1.0.4-alpha.aar",
+          "size": 365594,
+          "sha512": "fc455446d46c481e3504fe52c8e991e908892e7f76010800a48408e7eb23e28dd892579c2691e00df6da0ddb1e909727e9e3b727e16b607d15717ed0993bbd68",
+          "sha256": "f7c23db956b20bf5c17bb62f5fdcc9df42ebb0a5211b92d63261692e14a5b197",
+          "sha1": "656841f9cf7f3678115fd54cd09f55b5cd930590",
+          "md5": "3b0478c62803ca45e20ec45b3f86c350"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.candy",
+          "module": "kit",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.candy",
+          "module": "preview",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-video",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "top.zibin",
+          "module": "luban",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media-picker-1.0.4-alpha.aar",
+          "url": "media-picker-1.0.4-alpha.aar",
+          "size": 365594,
+          "sha512": "fc455446d46c481e3504fe52c8e991e908892e7f76010800a48408e7eb23e28dd892579c2691e00df6da0ddb1e909727e9e3b727e16b607d15717ed0993bbd68",
+          "sha256": "f7c23db956b20bf5c17bb62f5fdcc9df42ebb0a5211b92d63261692e14a5b197",
+          "sha1": "656841f9cf7f3678115fd54cd09f55b5cd930590",
+          "md5": "3b0478c62803ca45e20ec45b3f86c350"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "media-picker-1.0.4-alpha-sources.jar",
+          "url": "media-picker-1.0.4-alpha-sources.jar",
+          "size": 48325,
+          "sha512": "be9302be3aaddc5f67866d177183f9b62fcb6193d81f35554435e092ce2ed29b6beb9e82f2f430cde35d7831cd7a3c4171340de3a7603b2a93abe390104116f7",
+          "sha256": "7f90a57006f2d6eee090c7e9fe9fff552e8ac4f783b21e5bfb88ad88108813dd",
+          "sha1": "7a5d0c6cae41e21e0e9882d2ba5f5f8641b468db",
+          "md5": "9693cc4ded05af50e5a83c379dc84bea"
+        }
+      ]
+    }
+  ]
+}
